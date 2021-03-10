@@ -108,7 +108,7 @@ form p {
     text-align: center;
 }
 form p strong {
-    color:hsl(0, 100%, 74%)
+    color:hsl(0, 100%, 74%);
 }
 
 @media screen and (max-width: 850px) {
