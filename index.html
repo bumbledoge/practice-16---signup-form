@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
   
   <title>Frontend Mentor | Intro component with sign up form</title>
 
@@ -16,21 +20,32 @@
 </head>
 <body>
 
-  Learn to code by watching others
+  <div id="tot">
 
-  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-  but understanding how developers think is invaluable. 
+    <div class="description">
+      <h1 class="title">Learn to code by watching others</h1>
+      <p class="subtitle">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable</p>
+    </div>
+    <div class="signup">
+      <div class="purpleBox"><strong>Try it free 7 days</strong> then $20/mo. thereafter</div>
+      <form class="signUpForm">
 
-  Try it free 7 days then $20/mo. thereafter
+        <label for="firstName"></label>
+        <input placeholder="First Name" type="text" name="firstName" class="detail" >
+        <label for="lastName"></label>
+        <input placeholder="Last Name" type="text" name="lastName" class="detail">
+        <label for="emailAdress"></label>
+        <input placeholder="Email Adress" type="text" name="emailAdress" class="detail">
+        <label for="password"></label>
+        <input placeholder="Password" type="text" name="password" class="detail">
 
-  First Name 
-  Last Name 
-  Email Address
-  Password
-
-  Claim your free trial 
-
-  By clicking the button, you are agreeing to our Terms and Services
+        <button type="submit">Claim your free trial</button>
+        
+        <p>By clicking the button you are agreeing to our <strong>Terms and Services</strong></p>
+      </form>
+    </div>
+    
+  </div>
   
   <footer>
     <p class="attribution">
